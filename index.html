@@ -1,0 +1,139 @@
+
+<html> 
+ <head>
+  <link type="text/css" rel="stylesheet" href="main.css"/>
+  <title>The World In A 100 Years</title> 
+   <script>
+     function banner(){ 
+     var text = confirm("Did You Really Want to Click on My Banner?"); 
+     return text; 
+     }
+       function answer(){
+        var radio = document.getElementsByName("trivia");
+        var selection = false;
+        var message ="";
+        for( var i = 0; i < radio.length; i++) { 
+        if(radio[i].value == "Inner Core" && radio[i].checked == true) { 
+           selection = true; 
+         } //end if statement 
+        } //end for loop
+       if(selection == true) {
+          message = message + "<b><p style='color:black'>Way to go!</p></b>"; 
+       } else { 
+          message = message + "<b><p style='color:black'>Try again my friend.</p></b>"; 
+       }
+        document.getElementById("response").innerHTML = message;
+       }
+     </script>
+ </head> 
+<body id="background">
+  <a href="http://bing.com" onclick="return banner()">
+    <header>The World In A 100 Years </header>
+  </a>
+  <nav>
+    <ul id="navmenu">
+      <li class="navitem"><a href="index.html"> Home </a> </li>
+      <li class="navitem"><a href="games.html"> Games </a> </li>
+      <li class="navitem"><a href="videos.html"> Videos </a> </li>
+    </ul>
+  </nav>
+       <div id="rightside"> </div>
+
+        <div id="leftside"> </div>
+
+        <div class="clearfloat"> </div>
+
+
+
+
+
+                           <h1><div class="hat">100 Years</div></h1>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/A-g2RwQkUaI" frameborder="0" allowfullscreen></iframe>
+
+        <audio width="400" height="220" controls autoplay>
+        <source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+           Your browser does not support HTML 5 audio.
+        </audio> 
+       
+
+
+       <p><b><i>The <u>earth might not in an hundred years</u> it might end early.I say it will end early because of gases we put in the sky we <u>kill</u> are <u>self's</u>.And not to mention if all the <i><u>humans disappear</u></i> might blow up the earth.<u>So sad that  our own creations could blow up the earth</u>.And if we do leave the earth can go back the normal there might be a lot of plants but that can easity change.And the earth may not be happable to live on.Mother nature can be happy again instead of us humans destroying it! Bad humans bad</i></b>.
+
+   <div class="wrap-list">
+    <ol>
+      <li>Technology</li>
+      <li>Ecosystem and Mother Nature</li>	
+      <li>Human Life Form</li>
+    <ol>
+   </div>
+      <div class="wrap-trivia">    
+       <h2><div class="color">Earth Question</div></h2>
+       <p> What's in the <span class="wrap-text">middle</span> of the earth</span>? </p>
+    <div class="CANS">
+       <form>
+         <div id="respones"> </div>
+         <input type="radio" name="EDIT" value="Troposhere">Troposphere<br> 
+         <input type="radio" name="EDIT" value="Mantle">Mantle<br> 
+         <input type="radio" name="EDIT" value="Inner Core">Inner Core<br> 
+         <input type="radio" name="EDIT" value="Crust">Crust<br> 
+         <input type="button" id="submit" value="Click Here" onclick="answer()">
+       </form>	
+      </div>
+    </div>
+
+
+
+    
+    <img src="https://www.stockfreeimages.com/Globe-earth-inside-water-glass-ball-thumb2950213.jpg"/>
+    <img src="https://thumbs.dreamstime.com/z/planet-earth-blue-human-eye-violet-pink-day-makeup-woman-eye-painting-56098678.jpg"/>
+    <hr>
+    <center> <div class="GUY">Adrian Thomas</div> <a href="http://www.youtube.com">My Favorite Website</a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <footer>The World In A 100 Years</footer>
+   </body> 
+</html>
